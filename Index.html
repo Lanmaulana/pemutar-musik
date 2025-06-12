@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maulana Developer </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="animation-container"></div>
+    <div class="background-container"></div>
+
+    <div class="main-wrapper">
+
+        <div class="player-container">
+            <div class="player-main">
+                <div class="song-image">
+                    <img src="images/cover-1.png" alt="Song Cover" id="song-cover">
+                </div>
+                <div class="song-details">
+                    <h2 id="song-title">Pilih Lagu</h2>
+                    <p id="song-artist">Dari daftar di bawah</p>
+                </div>
+                <div class="progress-container" id="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <div class="time-stamps">
+                        <span id="current-time">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <i class="fas fa-backward" id="prev-btn"></i>
+                    <i class="fas fa-play play-pause-btn" id="play-pause-btn"></i>
+                    <i class="fas fa-forward" id="next-btn"></i>
+                </div>
+            </div>
+            <div class="playlist-container">
+                <h3>Daftar Putar</h3>
+                <ul class="playlist" id="playlist">
+                    </ul>
+            </div>
+        </div>
+
+        <p class="creator">Dibuat oleh Maulana Developer</p>
+        
+    </div>
+    <audio id="audio-source"></audio>
+    <script src="js/script.js"></script>
+</body>
+</html>
