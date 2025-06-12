@@ -4,9 +4,7 @@ Sebuah aplikasi pemutar musik front-end yang simpel dan modern, dibuat dengan te
 
 ## 📸 Tampilan (Preview)
 
-*(Ganti `[![IMG-20250613-024302.jpg](https://i.postimg.cc/YS0dTtjd/IMG-20250613-024302.jpg)](https://postimg.cc/8F8d6QRv)` dengan nama file screenshot aplikasi Anda!)*
-
-![Preview Aplikasi Pemutar Musik]([![IMG-20250613-024302.jpg](https://i.postimg.cc/YS0dTtjd/IMG-20250613-024302.jpg)](https://postimg.cc/8F8d6QRv))
+[![IMG-20250613-024302.jpg](https://i.postimg.cc/YS0dTtjd/IMG-20250613-024302.jpg)](https://postimg.cc/8F8d6QRv)
 
 ## ✨ Fitur-fitur
 
@@ -70,24 +68,22 @@ Untuk menjalankan proyek ini di komputer lokal Anda, ikuti langkah-langkah berik
     Tidak perlu instalasi server. Cukup buka file `index.html` langsung di browser favorit Anda (seperti Google Chrome, Firefox, atau Edge).
 
 ## 📁 Struktur Folder
-
 Struktur folder yang disarankan agar aplikasi berjalan dengan baik:
+```
 /
 ├── index.html
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
-│
-├── ms               # Folder untuk menyimpan semua file
+├── ms/                 # Folder untuk file musik
 │   ├── Justin Bieber - Baby ft.mp3
-│   └── NEFFEX - Get Through.mp3
-|   └──  night changes - one direction  nadine abigail.mp3
-│
-└── img              # Folder untuk menyimpan semua gambar
-|    └── Justin.jpg
-|    └── Nadine.jpg
-|    └── Neffex.jpg
----
+│   ├── NEFFEX - Get Through.mp3
+│   └── night changes - one direction nadine abigail.mp3
+└── img/                # Folder untuk gambar sampul
+    ├── Justin.jpg
+    ├── Nadine.jpg
+    └── Neffex.jpg
+```
 
 Dibuat oleh **Maulana Developer**.
